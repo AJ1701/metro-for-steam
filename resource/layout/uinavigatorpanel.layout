@@ -377,7 +377,7 @@
 
 		// content pages - these are all pushed down by the email reminder bar (above) if it's visible
     	place { control=DownloadsPage       width=max height=max margin-top=0 margin-left=0 margin-right=0 margin-bottom=1 start=URLBar dir=down }
-		place { control=NewLibraryPage		width=max height=max margin-top=0 margin-left=0 margin-right=0 margin-bottom=1 start=phonereminderbar dir=down }
+		place { control=NewLibraryPage		width=max height=max margin-top=0 margin-left=0 margin-right=0 margin-bottom=1 start=URLBar dir=down }
 		place { control=GamesPage_List 		width=max height=max margin-top=0 margin-left=0 margin-right=0 margin-bottom=1 start=phonereminderbar dir=down }
 		place { control=GamesPage_Details 		width=max height=max margin-top=1 margin-left=0 margin-right=0 margin-bottom=1 start=phonereminderbar dir=down }
 		place { control=GamesPage_Grid 		width=max height=max margin-top=0 margin-left=0 margin-right=0 margin-bottom=0 start=phonereminderbar dir=down }
