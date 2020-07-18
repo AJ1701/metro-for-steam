@@ -43,7 +43,7 @@
 		AccountDropDownStyleOnline
 		{
 
-			bgcolor=transparent
+			bgcolor=none
 			render_bg
 		  	{
 				1="image( x0, y0 + 10, x1, y1, graphics/dropdown_online )"
@@ -60,11 +60,11 @@
 
 		AccountButtonStyle
 		{
-			bgcolor = transparent
+			bgcolor = none
 			render_bg
 		  	{
 				// background fill
-				0="fill( x0, y0, x1, y1, dark_blue )"
+				0="fill( x0, y0, x1, y1, none )"
 			}
 		}
 
@@ -73,7 +73,7 @@
 			render_bg
 		  	{
 				// background fill
-				0="fill( x0, y0, x1, y1, darkblue )"
+				0="fill( x0, y0, x1, y1, none )"
 			}
 		}
 
@@ -91,7 +91,7 @@
 		
 		AccountMenuButtonStyle
 		{
-			bgcolor=transparent
+			bgcolor=none
 		}
 
 		AccountMenuButtonStyle:hover

@@ -213,7 +213,7 @@
 		announcement_button
 		{
 			minimum-width = 29
-			bgcolor=transparent
+			bgcolor=none
 			render_bg
 			{
 				// background fill

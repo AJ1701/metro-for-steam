@@ -372,6 +372,10 @@
 		place { control="library_music_player_icon" region=top align=right y=7 height=24 spacing=1 width=24 }
 		place { control="library_music_add_button,library_music_menu" region=top align=right end-right=library_Music_player_icon y=7 height=24 margin-right=0 }
 
+		// New
+		place { control=URLAnchor align=left y=54 height=28 width=max }
+		place { control=LibraryAnchor height=28 width=max start=URLAnchor dir=down }
+
  	  	place { control=emailreminderbar margin-top=79 width=max height=40 }
  	  	place { control=phonereminderbar margin-top=79 width=max height=40 }
 
